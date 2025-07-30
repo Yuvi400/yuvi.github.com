@@ -1,1 +1,1 @@
-# STUDY§CORE Academy
+# STUDY§CORE Academy 

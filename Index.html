@@ -1,26 +1,63 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STUDY§CORE Intro</title>
+    <title>STUDY§CORE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="intro-container">
-        <div class="logo-container">
+
+    <div class="intro-screen">
+        <div class="intro-container">
+            <div class="logo-container">
+                </div>
+            <div class="title">STUDY§CORE</div>
+            <div class="loading-bar-container">
+                <div class="loading-bar-book">
+                    <div class="loading-fill"></div>
+                </div>
+                <div class="loading-text">Loading...</div>
             </div>
-        <div class="title">STUDY§CORE</div>
-        <div class="loading-bar-container">
-            <div class="loading-bar-book">
-                <div class="loading-fill"></div>
-            </div>
-            <div class="loading-text">Loading...</div>
         </div>
     </div>
+
+    <div class="main-app hidden">
+        <header class="app-header">
+            <h1>STUDY§CORE</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" data-section="notes" class="active">Notes</a></li>
+                    <li><a href="#" data-section="test">Test</a></li>
+                    <li><a href="#" data-section="video">Video</a></li>
+                    <li><a href="#" data-section="biography">Biography</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="app-content">
+            <section id="notes-section" class="content-section active">
+                <h2>Notes Section</h2>
+                <p>Welcome to the Notes section! Here you can find your study notes.</p>
+                </section>
+
+            <section id="test-section" class="content-section">
+                <h2>Test Section</h2>
+                <p>Prepare for your exams with our interactive tests.</p>
+                </section>
+
+            <section id="video-section" class="content-section">
+                <h2>Video Section</h2>
+                <p>Watch educational videos to deepen your understanding.</p>
+                </section>
+
+            <section id="biography-section" class="content-section">
+                <h2>Biography Section</h2>
+                <p>Learn about influential figures and their contributions.</p>
+                </section>
+        </main>
+    </div>
+
     <script src="script.js"></script>
 </body>
-</html>
-
-
+</html> 
